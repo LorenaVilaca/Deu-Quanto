@@ -9,19 +9,29 @@
 /* Begin PBXBuildFile section */
 		0D667A8A2B0D75410073AF38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D667A892B0D75410073AF38 /* AppDelegate.swift */; };
 		0D667A8C2B0D75410073AF38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D667A8B2B0D75410073AF38 /* SceneDelegate.swift */; };
-		0D667A8E2B0D75410073AF38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D667A8D2B0D75410073AF38 /* ViewController.swift */; };
+		0D667A8E2B0D75410073AF38 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D667A8D2B0D75410073AF38 /* CalculatorViewController.swift */; };
 		0D667A932B0D75420073AF38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D667A922B0D75420073AF38 /* Assets.xcassets */; };
 		0D667A962B0D75420073AF38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D667A942B0D75420073AF38 /* LaunchScreen.storyboard */; };
+		0D67582E2B0E7C1E0095D3A0 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D67582D2B0E7C1E0095D3A0 /* ResultViewController.swift */; };
+		0D6758302B0E7C2D0095D3A0 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D67582F2B0E7C2D0095D3A0 /* CalculatorView.swift */; };
+		0D6758322B0E7C350095D3A0 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6758312B0E7C350095D3A0 /* ResultView.swift */; };
+		0D6758362B0E7D400095D3A0 /* UIView+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6758352B0E7D400095D3A0 /* UIView+Preview.swift */; };
+		0D6758382B0E7D5B0095D3A0 /* UIViewController+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6758372B0E7D5B0095D3A0 /* UIViewController+Preview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0D667A862B0D75410073AF38 /* Deu Quanto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Deu Quanto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D667A892B0D75410073AF38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D667A8B2B0D75410073AF38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0D667A8D2B0D75410073AF38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0D667A8D2B0D75410073AF38 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		0D667A922B0D75420073AF38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D667A952B0D75420073AF38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D667A972B0D75420073AF38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D67582D2B0E7C1E0095D3A0 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		0D67582F2B0E7C2D0095D3A0 /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		0D6758312B0E7C350095D3A0 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		0D6758352B0E7D400095D3A0 /* UIView+Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Preview.swift"; sourceTree = "<group>"; };
+		0D6758372B0E7D5B0095D3A0 /* UIViewController+Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Preview.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +66,41 @@
 			children = (
 				0D667A892B0D75410073AF38 /* AppDelegate.swift */,
 				0D667A8B2B0D75410073AF38 /* SceneDelegate.swift */,
-				0D667A8D2B0D75410073AF38 /* ViewController.swift */,
-				0D667A922B0D75420073AF38 /* Assets.xcassets */,
+				0D6758332B0E7C3A0095D3A0 /* View */,
+				0D67582C2B0E7B560095D3A0 /* Controller */,
+				0D6758342B0E7D160095D3A0 /* Supporting Files */,
 				0D667A942B0D75420073AF38 /* LaunchScreen.storyboard */,
-				0D667A972B0D75420073AF38 /* Info.plist */,
 			);
 			path = "Deu Quanto";
+			sourceTree = "<group>";
+		};
+		0D67582C2B0E7B560095D3A0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0D667A8D2B0D75410073AF38 /* CalculatorViewController.swift */,
+				0D67582D2B0E7C1E0095D3A0 /* ResultViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0D6758332B0E7C3A0095D3A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0D67582F2B0E7C2D0095D3A0 /* CalculatorView.swift */,
+				0D6758312B0E7C350095D3A0 /* ResultView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0D6758342B0E7D160095D3A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D667A972B0D75420073AF38 /* Info.plist */,
+				0D667A922B0D75420073AF38 /* Assets.xcassets */,
+				0D6758352B0E7D400095D3A0 /* UIView+Preview.swift */,
+				0D6758372B0E7D5B0095D3A0 /* UIViewController+Preview.swift */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +173,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D667A8E2B0D75410073AF38 /* ViewController.swift in Sources */,
+				0D667A8E2B0D75410073AF38 /* CalculatorViewController.swift in Sources */,
+				0D6758302B0E7C2D0095D3A0 /* CalculatorView.swift in Sources */,
 				0D667A8A2B0D75410073AF38 /* AppDelegate.swift in Sources */,
+				0D6758382B0E7D5B0095D3A0 /* UIViewController+Preview.swift in Sources */,
+				0D6758362B0E7D400095D3A0 /* UIView+Preview.swift in Sources */,
 				0D667A8C2B0D75410073AF38 /* SceneDelegate.swift in Sources */,
+				0D67582E2B0E7C1E0095D3A0 /* ResultViewController.swift in Sources */,
+				0D6758322B0E7C350095D3A0 /* ResultView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,10 +326,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GMAYGR5U3T;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Deu Quanto/Info.plist";
+				INFOPLIST_FILE = "Deu Quanto/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,10 +354,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GMAYGR5U3T;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Deu Quanto/Info.plist";
+				INFOPLIST_FILE = "Deu Quanto/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
